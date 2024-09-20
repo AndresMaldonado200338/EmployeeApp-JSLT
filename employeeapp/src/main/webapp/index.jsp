@@ -40,7 +40,7 @@
                     </table>
                     <input type="submit" value="Enviar">
                 </form>
-                <c:set var="oper" value="${sessionScope.oper}" />;
+                <c:set var="oper" value="${sessionScope.oper}" />
                 <c:if test="${oper eq 'success'}">
                     <h2>Empleado adicionado exitosamente!</h2>
                 </c:if>
